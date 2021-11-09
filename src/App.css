@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+table {
+  width: 100%;
+  border: 1px solid black;
+}
+
+.uibuttonblue{
+  background-color: lightgreen;
+  color: darkred;
+  padding: auto;
+}
+
+th,td {
+  border: 1px solid black;
+  padding: 0.5rem;
+}
+
+th span {
+  margin-right: 1rem;
+}
+.field{
+  align-items: flex-start;
+  text-align: left;
+  color: darkblue;
+  background-color: aquamarine;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.field:focus{
+  background-color: lightgreen;
+}
+
+input {
+  -webkit-appearance: none;
+  border: 1px solid gray;
+  padding: 0.5rem;
+  width: 100%;
+  max-width: 100%;
+  background: #f0f0f0;
+}
+
+.pagination {
+  margin-top: 0.25rem;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  padding: 0.5rem;
+}
